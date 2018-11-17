@@ -1,7 +1,6 @@
 <template>
 	<div :class="['text-block', {'is-selected': selected}, complexClass]">
 		<div class="text-block__close" @click="removeItem"></div>
-		<div class="text-block__id">#{{ index }}</div>
 		<div class="text-block__content" @click="clickHandler" @dblclick="dblClickHandler">
 			<slot/>
 		</div>
