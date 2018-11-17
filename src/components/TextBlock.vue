@@ -5,10 +5,7 @@
 			<slot/>
 		</div>
 		
-		<b-modal v-model="modalShow"
-		         cancel-title="Отмена"
-		         ok-title="Да"
-		         @ok="confirmRemoving">
+		<b-modal v-model="modalShow" cancel-title="Отмена" ok-title="Да" @ok="confirmRemoving">
 			Удалить блок?
 		</b-modal>
 	</div>
